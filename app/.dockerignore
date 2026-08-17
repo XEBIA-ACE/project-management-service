@@ -1,0 +1,29 @@
+# Build output
+target/
+
+# Version control
+.git/
+.gitignore
+
+# Documentation
+*.md
+
+# Environment files (never bake secrets into the image)
+.env
+.env.*
+!.env.example
+
+# IDE / editor artefacts
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+
+# Test reports (not needed in the image)
+**/surefire-reports/
+**/failsafe-reports/
